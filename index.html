@@ -3,14 +3,252 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My portofolio</title>
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>websait</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section class="home">
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <h2>Sa<span>.ufud</span></h2>
+        </div>
+        <div class="navbar-content">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#portofolio">Portofolio</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+    <div  class="chat-bot">
+        <a href="#chat-bot">
+        <img src="img/chatbot.png" alt="">
+        </a>
+        <div id="chat-bot" class="overlay-chat-bot">
+            <nav class="navbar-chat-bot">
+                <img src="img/chatbot.png" alt="">
+                <h3>Chat Bot</h3>
+                <a href="#">X</a>
+            </nav>
+            <div class="bg">
+                <div class="user">
+                    <p>Halloo</p>
+                </div>
+                <div class="bot">
+                    <p>Haii Saya Saufud</p>
+                </div>
+                <div class="user">
+                    <p>berapa umur mu.?</p>
+                </div>
+                <div class="bot">
+                    <p>Saya kelahiran 2006, jadi saya berumur 18 tahun</p>
+                </div>
+                <div class="user">
+                    <p>berapa umur mu.?</p>
+                </div>
+                <div class="bot">
+                    <p>p</p>
+                </div>
+                <div class="user">
+                    <p>Halloo</p>
+                </div>
+            </div>
+            <div class="pesan">
+            <input placeholder="Pesan" type="text">
+            <img src="img/send.svg" alt="">
+        </div>
+        </div>
+    </div>
+   
+    <section id="home" class="home">
+        <div class="content">
+            <h1>Haiii , Saya <span>Saufud</span> </h1>
+          <h2>FrontEnd<span> Developer</span></h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Architecto voluptates ut eos quo. Rerum, laboriosam iure. 
+            Nisi nesciunt  !
+          </p>
+          <div class="btn">
+          <a href="#about">Next..</a>
+          <a href="#About">Unduh Cv</a>
+        </div>
+        </div>
+        <div class="gambar">
+            <img src="img/Saufud1.1.png" alt="">
+        </div>
         
+
     </section>
+
+    <section id="about" class="About">
+       <h1>About <span>Me</span></h1>
+       <div class="about-content">
+        <img  data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="800" src="img/Saufud1.1.png" alt="">
+        <div data-aos="zoom-out-right" class="informasi">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore eius rem esse inventore, qui architecto consectetur laudantium cupiditate aspernatur assumenda harum temporibus, voluptatum id saepe? At reprehenderit nulla nemo fugiat?
+            Laudantium sunt sed et dolores consectetur rerum laboriosam consequuntur laborum velit officiis, incidunt a similique exercitationem eaque quas. Molestias, iure ab. Eligendi obcaecati a, maxime iure distinctio illum ducimus repudiandae?
+            Mollitia illum, error nemo quibusdam itaque laborum facere vel necessitatibus perferendis molestiae consequuntur voluptatem eveniet debitis iste dolor distinctio, quae, dolorem beatae non ullam ducimus? Natus tempore corrupti nam maxime!</p>
+        </div>
+       </div>
+       <h2 class="sub">Pendidikan </h2>
+       <div class="pendidikan">
+        <div data-aos="fade-right"
+        data-aos-offset="200"
+        data-aos-easing="ease-in-sine" href="" class="card">
+        <div class="detail">
+            <h2>Mts Ashabul Maimanah Sidayu</h2>
+            <h2>2018 - 2021</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus, laudantium.</p>
+        </div>
+        <img data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine" src="img/mts.png" alt="">
+        </div>
+        <div data-aos="fade-right"
+        data-aos-offset="200"
+        data-aos-easing="ease-in-sine" href="" class="card">
+        <div class="detail">
+            <h2>SMA Negri 1 Tirtayasa</h2>
+            <h2>2021-2024</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus, laudantium.</p>
+        </div>
+        <img data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine" src="img/smantir.png" alt="">
+        </div>
+        <div data-aos="fade-right"
+        data-aos-offset="200"
+        data-aos-easing="ease-in-sine" href="" class="card">
+        <div class="detail">
+            <h2>Universitas Pamulang</h2>
+            <h2>2024</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus, laudantium.</p>
+        </div>
+        <img data-aos="fade-right"
+        data-aos-offset="200"
+        data-aos-easing="ease-in-sine" src="img/unpam.png" alt="">
+        </div>
+       </div>
+       <h2 class="sub">Language & Fremwork</h2>
+       <div class="skil">
+        <img  data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1200" src="img/logo-html.png" alt="">
+        <img  data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1200" src="img/logo-css.png" alt="">
+        <img  data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1200" src="img/logo-js.png" alt="">
+        <img  data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1200" src="img/logo-bosstrep.png" alt="">
+        <img  data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1200" src="img/logo-tailwind.png" alt="">
+        <img  data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1200" src="img/logo-reactt.png" alt="">
+        <img  data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1200" src="img/logo-vue.png" alt="">
+        
+       
+       </div>
+       </div>
+       
+    </section>
+    
+    <section id="portofolio" class="portofolio">
+        <h1>My <span>Portofolio</span></h1>
+        <div class="content-portofolio">
+            <a data-aos="flip-left" href="#">
+                <img src="img/contoh.png" alt="">
+                <h2>web Company</h2>
+            </a>
+            <a data-aos="flip-up" href="#">
+                <img src="img/contoh2.png" alt="">
+                <h2>web Company</h2>
+            </a>
+            <a data-aos="flip-right" href="#">
+                <img src="img/contoh.png" alt="">
+                <h2>web Company</h2>
+            </a>
+            <a data-aos="flip-left" href="#">
+                <img src="img/contoh.png" alt="">
+                <h2>web Company</h2>
+            </a>
+            <a data-aos="flip-up" href="#">
+                <img src="img/contoh2.png" alt="">
+                <h2>web Company</h2>
+            </a>
+            <a data-aos="flip-right" href="#">
+                <img src="img/contoh.png" alt="">
+                <h2>web Company</h2>
+            </a>
+        </div>
+        <a class="view" href="#">View All ></a>
+    </section>
+    <section id="contact" class="contact">
+        <h1>Con<span>tact</span></h1>
+        <div data-aos="flip-up" class="content-contact">
+            <div class="form">
+                <form action="">
+                <input type="text" placeholder="Nama" required>
+                <input type="number" placeholder="nomor hp" required>
+                <input type="email" placeholder="email"  required>
+                <textarea name="pesan" placeholder="pesan" id="" required></textarea>
+                <button type="submit">Kirim</button>
+            </form>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.945170280803!2d106.29752083006638!3d-6.002267480147313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e41f11fa0c04d65%3A0xf4ff9123d5f752fa!2ssidayu%20fc!5e0!3m2!1sid!2sid!4v1731320919170!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <h1>Mari <span>Berlerasi</span></h1>
+        <div class="sosmed">
+            <a data-aos="flip-left" href="">
+            <img src="img/ig.jpeg" alt="">
+            </a>
+            <a data-aos="flip-left" href="">
+            <img src="img/fb.jpg" alt="">
+            </a>
+            <a data-aos="flip-left" href="">
+            <img src="img/wa.png" alt="">
+            </a>
+            <a data-aos="flip-left" href="">
+            <img src="img/linkedln.png" alt="">
+            <a data-aos="flip-left" href="">
+            <img  src="img/github.jpeg" alt="">
+            </a>
+            <a data-aos="flip-left" href="">
+            <img src="img/glints.png" alt="">
+            </a>
+        </div>
+    </section>
+   
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
+ <footer>
+       <div class="content-footer">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#portofolio">Portofolio</a>
+        <a href="#contact">Contact</a>
+       </div>
+      
+       <div class="lain">
+        <p>Kontak : +62 857 1996 5709</p>
+        <p>&copy; 2024 Creat By <span>Saufud</span></p>
+       </div>
+    </footer>
 </html>
